@@ -1,0 +1,115 @@
+
+html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.header {
+  background-color:white;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.sign-in-button {
+    background-color: paleturquoise; 
+    padding: 5px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+    border-radius: 15px;
+}
+
+.title-box {
+  text-align: center;
+  color: white;
+  background-color: rgb(134, 25, 32);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px ;
+}
+
+.headimage {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.info-section {
+  margin-top: 10px;
+   display: flex;
+}
+
+.history-box {
+  flex: 1;
+  font-size: larger;
+  color: darkslategray;
+}
+
+.quick-links-box {
+  border-style: double;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: purple;
+  margin: 10px;
+}
+
+.section-title-box {
+  background-color: rgb(143, 10, 41);
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+}
+
+
+.border-row {
+  border-bottom: 2px solid #e4dae4; 
+  padding-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px; 
+}
+
+.things-to-do-box {
+  font-size: larger;
+  color: darkslategray;
+}
+
+#more {display: none;}
+
+.places-to-eat-box {
+  font-size: large;
+  font-weight:bold;
+  color: rgb(90, 35, 122);
+  padding: 20px
+}
+
+img {padding: 10px}
+
+.accordion {
+  font-size: larger;
+}
+
+
+.footer {
+  background-color: white;
+  margin:20px;
+  padding: 20px;
+  font-size: large;
+  text-align: center;
+}

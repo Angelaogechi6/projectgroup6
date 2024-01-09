@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/> <!--this is for the icons that we will use later-->
+  <link rel="stylesheet" href="./main (1).css">  <!--link to you your own css file-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+  <title>LONDON CITY</title> <!-- rename your location-->
+</head>
+
+<body>
+
+    <header class="header">
+        <div>
+            <a href="/homepage.html" class="text-white"> <!--creates a hyperlink back to the homepage. once the pages are combined, change this to /index.html which should be the homepage-->
+            <img class="logo" src="./brits.jpeg" alt="Brit City Scores" height="120" target="_blank" data-toggle="tooltip" title="Back to Homepage" >
+            </a>
+        </div>
+        <div>
+            <button class="sign-in-button" target="_blank" data-toggle="tooltip" title="Sign into your profile">Sign In</button>
+            </a>
+        </div>
+    </header>
+
+    
+    <div class="title-box">
+        <h1>london_city</h1> <!--change name of your location-->
+    </div>
+    <img src="./WhatsApp Image 2024-01-04 at 7.59.49 PM.jpeg" alt="Southend Landscape" class="headimage"> <!--change to your image file location-->
+        
+    <div class="info-section">
+        <div class="history-box">
+            <h2>History and Highlights</h2>
+            <p>London, a vibrant metropolis, boasts rich history, iconic landmarks like the London Eye, 
+                and diverse cultural experiences. Explore museums, savor renowned cuisine, 
+                and traverse the city's charm by road, rail, or air. 
+                Immerse yourself in the heart of England's dynamic capital......</p>
+        </div>
+        <div class="quick-links-box">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#things-to-do">Things to Do</a></li>
+                <li><a href="#places-to-eat">Places to Eat</a></li>
+                <li><a href="#get-here">How to Get Here</a></li>
+            </ul>
+        </div>
+    </div>  
+   
+    
+    <div class="section-title-box" id="things-to-do">  <!--the id important to ensure the "Quick Links work"-->
+        <h2><span class="material-icons">theater_comedy</span> Things to Do </h2>
+    </div>
+    
+
+        <div class="row border-row mb-4">
+            <div class="col-md-3 img-container">
+                <img src="./hotupbus.jpeg" alt="TOUR BUSSES" class="img-fluid" width="100%"> <!--change to your image file location-->
+            </div>
+            <div class="col-md-9">
+                <h3>London Tour bus</h3>
+                <p>The London tour bus, also known as "Hop-On Hop-Off," is a flexible way for tourists to explore the city.
+                     It allows passengers to hop on and off at various stops, providing audio commentary in multiple languages.
+                      With an open-top design, passengers enjoy panoramic views of London's landmarks,
+                     making it a popular choice for a convenient and comprehensive sightseeing experience.<span id="dots1">...</span>
+                     <span id="more1">London tour bus tickets vary in price depending on the route and type of ticket.
+                         Check with specific operators for details. </span></p>
+                <button onclick="myFunction1()" id="myBtn1">Read more</button></p>
+            </div>
+            <script src="./script.js"></script>   <!--link to you your own javascript file-->
+        </div>
+
+        <div class="row border-row mb-4">
+            <div class="col-md-9">
+                <h3 >London Eye</h3>
+                <p>The London Eye, an iconic giant observation wheel, 
+                    offers breathtaking panoramic views of the city skyline. 
+                    Soar above London's landmarks in glass capsules, enjoying a mesmerizing experience with unparalleled sights. 
+                    A must-visit attraction providing a unique perspective on the beauty of the British capital.<span id="dots2">...
+
+                    </span><span id="more2"> Ticket prices for the London Eye vary based on factors like age, time of day, 
+                        and whether you purchase standard or fast-track tickets. As of my last knowledge update in January 2022, 
+                        prices can range from around £27 to £37 for adults and approximately £22 to £32 for children (ages 3-15). However, prices may change, 
+                        and it's advisable to check the official London Eye website for the most up-to-date information.
+                          </span></p>
+                <button onclick="myFunction2()" id="myBtn2">Read more</button></p>
+            </div>
+            <script src="southend.js"></script>
+            <div class="col-md-3 img-container">
+                <img src="./londoneye.jpeg" alt="london eye" class="img-fluid" width="100%">
+            </div>
+        </div>
+        
+        <div class="row border-row mb-4">
+            <div class="col-md-3 img-container">
+                <img src="./historymuseum.jpeg" alt="history museum" class="img-fluid" width="100%">
+            </div>
+            <div class="col-md-9">
+                <h3>Natural History Museum</h3>
+                <p>Explore the wonders of the Natural History Museum in London, a treasure trove of Earth's biodiversity.
+                     From colossal dinosaur skeletons to rare gemstones, the museum invites you on a captivating journey through the marvels of the natural world. 
+                    Engaging exhibits and interactive displays make it a thrilling educational experience for all ages.<span id="dots3">...</span><span id="more3">History museum ticket prices vary, with some offering free entry to permanent collections. 
+                        Check each museum's official website for specific information and possible admission fees for special exhibitions or events. </span></p>
+                <button onclick="myFunction3()" id="myBtn3">Read more</button></p></p>
+            </div>
+        </div>
+
+    
+    <div class="section-title-box" id="places-to-eat"> 
+        <h2><span class="material-icons">restaurant_menu</span>  Places to Eat </h2>
+    </div>
+    
+
+    <div class="places-to-eat-box">
+        <div class="row">
+            <div class="col-md-4 text-center rounded">
+                <div class="restaurant">
+                    <a href="https://bacchanalia.co.uk/" target="_blank" data-toggle="tooltip" title="This restaurant serves an asmazing seafood. Click here to make a reservation">
+                        <img src="./Bacchanalia.jpeg" alt="Bacchanalia" width=100%>  <!--change to your image file location and external weblink-->
+                    </a>
+                    <h3>Bacchanalia restaurant</h3>
+                    <p>Rating: ★★★★★</p>
+                    <p> Cost: £££ </p>
+                </div>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <div class="restaurant">
+                    <a href="https://www.wallacecollection.org/visit/food-and-drink/" target="_blank" data-toggle="tooltip" title=" British gastro pub and locally caught seafood at it's finest. Click here to make a booking">
+                    <img src="./Thewallace.jpeg" alt="The wallace" width=90%>  <!--change to your image file location and external weblink-->
+                    </a>
+                    <h3>The wallace Restaurant</h3>
+                     <p>Rating: ★★★★</p>
+                     <p>Cost: ££</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 text-center rounded">
+                <div class="restaurant">
+                    <a href="https://www.amazonicorestaurant.com/london/" target="_blank"data-toggle="tooltip" title="Luxury decoration and asmazing  signature food-and-drink. Click here to make a reservation" >
+                    <img src="./resturant.jpeg" alt="amazonico restaurant" width=90%>  <!--change to your image file location and external weblink-->
+                    </a>
+                    <h3>Amazonico Restaurant</h3>
+                    <p>Rating: ★★★★★</p>
+                    <p>Cost: £££ </p>
+                </div>
+            </div>
+
+            <script>
+                $(document).ready(function(){
+                    $('[data-toggle="tooltip"]').tooltip();
+                })
+            </script>
+        </div>
+    </div>
+
+    
+    <div class="section-title-box" id="get-here">  <!--Using Bootstrap accordion-->
+        <h2>How to Get Here</h2>
+    </div>
+    
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne" style="font-weight:600; font-size:25px">
+                By Road
+                </button>
+            </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">To reach London by road, follow major highways and routes. Use navigation apps for real-time directions and traffic updates. </div>
+                </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo" style="font-weight:600; font-size:25px">
+                  By Train
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">To get to London by train, you can use major railway stations like King's Cross, Paddington, or Euston. Plan your journey with national rail services for a comfortable and scenic route to the heart of London.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree" style="font-weight:600; font-size:25px">
+                  By Air
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">To reach London by air, book a flight to one of the city's airports, such as Heathrow, Gatwick, or Stansted. From the airport, use public transport or taxis for convenient travel to the city center.</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </div>
+
+    
+    
+    
+<footer class="footer">
+   <p>  © Copyright WebDev Group 6 | Code First Girls 2024 | </p> 
+</footer>
+
+
+
+</body>
+
+</html>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Include your map script here -->
+  <script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    })
+</script>
+  
